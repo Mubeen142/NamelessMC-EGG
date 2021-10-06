@@ -17,7 +17,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n\r\napt-get update -y && apt-get install -y git wget zip unzip\r\n\r\ncd \/mnt\/server\/\r\nwget https:\/\/gitlab.com\/devil38\/fork-rewrite\/raw\/nginx\/nginx.zip\r\nunzip -o nginx.zip\r\nrm nginx.zip",
+            "script": "#!\/bin\/bash\r\n\r\napt-get update -y && apt-get install -y git wget zip unzip\r\n\r\ncd \/mnt\/server\/\r\nwget https:\/\/github.com\/Mubeen142\/NamelessMC-EGG\/raw\/main\/namelessmc.zip\r\nunzip -o namelessmc.zip\r\nrm namelessmc.zip",
             "container": "debian:10.1-slim",
             "entrypoint": "bash"
         }
