@@ -4,8 +4,8 @@
         "version": "PTDL_v1"
     },
     "exported_at": "2019-12-28T10:26:14+01:00",
-    "name": "Nginx",
-    "author": "itznya10@gmail.com",
+    "name": "NamelessMC",
+    "author": "lectrichost@gmail.com",
     "description": "Pterodactyl Nginx",
     "image": "registry.gitlab.com\/devil38\/fork-rewrite:nginx",
     "startup": ".\/start.sh",
